@@ -19,7 +19,7 @@ First, obtain a data package, if you already have one, skip this
 5. Download and unzip it
 
 
-# Download the data summarizer in RELEASES
+# Download the data summarizer py file
 If you wanna compile it yourself, feel free. I'm not doing all that for a goof.
 
 # Open your data
