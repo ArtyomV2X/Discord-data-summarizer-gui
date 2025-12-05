@@ -7,8 +7,7 @@ Doesnt give ANY information on how much time youve spent in vcs. I'd have to agr
 Program's probably still jank but it seems to work. Need to test it but don't have data to test with.
 
 ## This works on anything able to run Python and TKinter
-If you are on linux/mac you will no longer have to figure something out on your own 
--# You're welcome
+If you are on mac you will no longer have to figure something out on your own (most likely, can't test on windows or mac tho)
 
 # To use:
 First, obtain a data package, if you already have one, skip this
