@@ -1,14 +1,14 @@
-# Discord data summarizer
-Really low quality mid script I wrote really quickly, it reads a discord data packets messages and gives you really basic information.
+# Discord data summarizer [GUI]
+Rewrite of a script DecimalCubed wrote, it reads a discord data packets messages and gives you really basic information, but made slightly easier thru GUI.
 
-Gives you information on how many messages you posted, and your most chatted in channels, for the years 2020-2025 (its hardcoded im too lazy to do it better)
-Doesnt give ANY information on how much time youve spent in vcs, because the file i would need to parse for that is like 4 million lines long and im NOT doing all that
+Gives you information on how many messages you posted, and your most chatted in channels, for the years 2020-2025 (its hardcoded, we're too lazy to do it better)
+Doesnt give ANY information on how much time youve spent in vcs. I'd have to agree w/ DecimalCubed that it'd be a pain to parse all that data.
 
-THIS PROGRAM IS REALLY JANKY and not very polished i wrote it very quickly and sloppily, please read the below instructions if you do not know what you are doing
+Program's probably still jank but it seems to work. Need to test it but don't have data to test with.
 
-
-# This only works on 64 bit windows
-If you are on linux/mac you will have to figure something out on your own sorry
+## This works on anything able to run Python and TKinter
+If you are on linux/mac you will no longer have to figure something out on your own 
+-# You're welcome
 
 # To use:
 First, obtain a data package, if you already have one, skip this
@@ -19,17 +19,12 @@ First, obtain a data package, if you already have one, skip this
 5. Download and unzip it
 
 
-Download/Compile the data summarizer 
-- You can do this by navigating to the 'Releases' section on this page
-- If you wanna compile it idk figure it out urself im not explaining that
+# Download the data summarizer in RELEASES
+If you wanna compile it yourself, feel free. I'm not doing all that for a goof.
 
-
-Then, with your data package
-1. Open DiscordDataSummarizer-win64.exe
-2. Copy+Paste the directory/path of the unzipped data package into it
-3. Press enter
-4. Press enter again (or Y then enter if you want some debug info)
-5. Wait a bit
+# Open your data
+1. Run discord_summary.py
+2. Open the directory thru the file picker (check extra info if you like idc)
+3. Wait a bit. Python is pretty slow at this stuff.
    
-the program SHOULD now display info about your message count + most used channels for the years 2020-2025, if it doesnt PLEASE make an issue here
-you might have to scroll up a bit or resize the window to see all of it
+We'll see if this all works. Report issues as needed.
